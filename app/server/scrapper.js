@@ -1,9 +1,7 @@
 const Xray = require('x-ray');
 const request = require('request');
 
-const xray = new Xray(param);
-const xray = {}; 
-Xray.call(xray);
+const xray = new Xray();
 
 module.exports =  new Promise((resolve, reject) => {
 xray('http://sss.shoes', '.product', [{
